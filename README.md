@@ -26,3 +26,5 @@ And if the circuit is large enough then finding thing and fine tuning all these 
 - How to process the input and the output, how to convert from netlist to Verilog 
 - What must be the loss function for proper learning of the algorithm
 - Finally the samples available in hand are too aren’t enough for the model to get trained
+
+### Why proper representation is important ? 
