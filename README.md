@@ -7,7 +7,7 @@ And if the circuit is large enough then finding thing and fine tuning all these 
 ## Background : 
 
 Markup : * Bullet list
-Machine learning has been widely used in nearly all aspects in modern time
+- Machine learning has been widely used in nearly all aspects in modern time
 Starting form drug design to friendship recommendation it has given tremendous results in all fields
 The domain of CAD for VLSI is no different, and has also potential to adapt the power of machine learning to generate fruitful results.
 Here we aim to generate a unsupervised model for the task
