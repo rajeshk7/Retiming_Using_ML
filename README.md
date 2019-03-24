@@ -33,3 +33,20 @@ Here the circuit has to be represented properly so that we can extract all the e
 Without proper representation training of the model will be incomplete which will result in inaccurate prediction
 
 Moreover, in representation learning, without having a proper representation of the circuit our model will oversimplify the problem (underfitting)
+
+## Circuit representation :
+
+The central problem in machine learning on graphs is finding a way to incorporate information about the structure of the graph into the machine learning model
+Here we aim to represent our circuit using a method called DeepWalk method with a little modification
+DeepWalk relies on direct encoding and use a decoder based on the inner product. 
+
+### What are the features used for training and what is the expected the output ?
+
+- Chain : A chain is a walk in a graph which starts form an input node and ends at a output node. 
+-- I1, I1.2, I1.3, I1.5 is a chain 
+- Input :
+-- Top k chains of the circuit, here we can follow an approach where we can start with small k and keep on increasing it
+-- Frequency
+- Output : 
+-- Final location of registers with coordinates 
+
