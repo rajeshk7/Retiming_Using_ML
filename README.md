@@ -28,3 +28,8 @@ And if the circuit is large enough then finding thing and fine tuning all these 
 - Finally the samples available in hand are too aren’t enough for the model to get trained
 
 ### Why proper representation is important ? 
+
+Here the circuit has to be represented properly so that we can extract all the essential features required
+Without proper representation training of the model will be incomplete which will result in inaccurate prediction
+
+Moreover, in representation learning, without having a proper representation of the circuit our model will oversimplify the problem (underfitting)
