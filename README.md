@@ -16,3 +16,13 @@ And if the circuit is large enough then finding thing and fine tuning all these 
 
 - We aim to develop a model that can enable register motion and provide the optimum timing results every time
 - We aim to test some potential models and compare the results to get the best model suitable for the task	
+
+## Challenges : 
+
+- The first one is how to represent the circuit so that it is easy to extract the features even when the circuit is large 
+- Secondly what are the features that has to be chosen for training the model so that the accuracy is more
+- What must be the output of the model so as to serve the purpose 
+- How to verify whether the produced circuit follows the norms of retiming 
+- How to process the input and the output, how to convert from netlist to Verilog 
+- What must be the loss function for proper learning of the algorithm
+- Finally the samples available in hand are too aren’t enough for the model to get trained
