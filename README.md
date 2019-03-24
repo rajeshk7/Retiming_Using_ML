@@ -55,6 +55,6 @@ DeepWalk relies on direct encoding and use a decoder based on the inner product.
 - A machine learning algorithm can have infinite ways to move the registers and can produce millions of circuits 
 - Verifying each of them isn’t a good idea to begin with 
 - In order to not take any invalid move, we try to teach the algorithm rules based on which it can move the registers
-- Such machine learning algorithms are known as rule based machine learning algorithm 
+- Such machine learning algorithms are known as rule based ** machine learning algorithm **
 
 
