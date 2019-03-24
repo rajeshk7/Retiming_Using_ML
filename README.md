@@ -63,3 +63,8 @@ DeepWalk relies on direct encoding and use a decoder based on the inner product.
   - First one will be proportional to the latency achieved after the predicted motion of the registers. If the latency      increases we’ll incur high loss
   - Second one is how far a register is being moved, we want to achieve the optimum complexity with minimum dynamicity of the circuit  
 
+## Sampling : 
+
+- One more problem we have to deal with is less number of training samples
+- We can use sampling to generate more samples from the samples in hand 
+Gaussian perturbation is one way to get more samples
