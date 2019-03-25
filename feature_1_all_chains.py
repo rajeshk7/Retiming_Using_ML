@@ -230,6 +230,7 @@ print counter
 
 counter = 0
 '''
+
 for i in values:
     if counter < i:
         counter = i
@@ -237,5 +238,3 @@ for i in values:
 print (values)
 
 print (counter)
-
-exit()
