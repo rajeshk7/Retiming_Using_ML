@@ -1,11 +1,3 @@
-"""
-
-    #Last Edit : 21:03:19 02:35:21
-    mini log:
-            #added constraints for addition and deletion
-            #imporved bug for bool has no attribute 
-
-"""
 
 import copy #for deepcopy
 import math #for maths intensive operations
