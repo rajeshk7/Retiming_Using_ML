@@ -37,13 +37,15 @@ Moreover, in representation learning, without having a proper representation of 
 ## Circuit representation :
 
 The central problem in machine learning on graphs is finding a way to incorporate information about the structure of the graph into the machine learning model
-Here we aim to represent our circuit using a method called DeepWalk method with a little modification
-DeepWalk relies on direct encoding and use a decoder based on the inner product. 
+(Here we aim to represent our circuit using a method called DeepWalk method with a little modification
+DeepWalk relies on direct encoding and use a decoder based on the inner product.)
+Here we number all the nodes based on topological sorting, which is more helpful in case of the algorithm used.
 
 ### What are the features used for training and what is the expected the output ?
 
 - Chain : A chain is a walk in a graph which starts form an input node and ends at a output node. 
-  - I1, I1.2, I1.3, I1.5 is a chain 
+  - (I1, I1.2, I1.3, I1.5 is a chain )
+  - 1, 3, 5, 9 is a chain
 - Input :
   - Top k chains of the circuit, here we can follow an approach where we can start with small k and keep on increasing it
   - Frequency
