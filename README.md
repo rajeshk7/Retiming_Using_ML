@@ -62,7 +62,7 @@ Here we number all the nodes based on topological sorting, which is more helpful
 ## Loss Funnctions :
 
 - We will have two loss functions 
-  - First one will be proportional to the latency achieved after the predicted motion of the registers. If the latency      increases we’ll incur high loss
+  - First one will be proportional to the critical path achieved after the predicted motion of the registers. If the latency      increases we’ll incur high loss
   - Second one is how far a register is being moved, we want to achieve the optimum complexity with minimum dynamicity of the circuit  
 
 ## Sampling : 
